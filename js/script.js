@@ -1,6 +1,7 @@
 $(document).on('ready', function () {
   'use strict';
 
+  console.log('clicked');
   // Set revolution slider
   jQuery('.tp-banner')
     .show()
@@ -255,6 +256,7 @@ $(document).on('ready', function () {
   // Set gallery widget
   $('.gallery-outer .gallery-item a').on('click', function () {
     var this_src = $(this).find('img').attr('src');
+    console.log(this_src);
     var right_src = $('.gallery-block-right img').attr('src', this_src);
     $('.gallery-block-right a').attr('href', this_src);
   });
