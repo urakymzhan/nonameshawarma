@@ -1158,6 +1158,7 @@ span.quort {
   background: #181a1f;
   padding-bottom: 30px;
   margin-top: 30px;
+  /* border: 1px solid red; */
 }
 
 .bread-crumb-img {
@@ -1165,6 +1166,7 @@ span.quort {
   width: 80%;
   margin-top: -30px;
   position: relative;
+  /* border: 1px solid blue; */
 }
 
 .bread-crumb-img:after {
@@ -1172,6 +1174,7 @@ span.quort {
 
 .bread-crumb-img img {
   width: 100%;
+  /* border: 1px solid yellowgreen; */
 }
 
 .bread-crumb-content {
@@ -1179,7 +1182,8 @@ span.quort {
   width: 20%;
   color: #ffffff;
   font-size: 24px;
-  /*text-align: center;*/
+  text-align: center;
+  /* border: 1px solid green; */
 }
 
 .bread-crumb-content a {
