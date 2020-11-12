@@ -501,6 +501,22 @@
     margin-left: -10px;
     margin-top: -10px;
   }
+
+  .swiper-slide img {
+    height: 380px;
+  }
+  .swiper-slide .swiper-content {
+    color: #fff;
+    position: absolute;
+  }
+  .swiper-content h1 {
+    line-height: 36px;
+    font-size: 18px;
+  }
+  .swiper-content p {
+    line-height: 18px;
+    font-size: 9px;
+  }
 }
 
 @media (max-width: 480px) {
